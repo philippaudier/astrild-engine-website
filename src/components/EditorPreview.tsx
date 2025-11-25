@@ -32,7 +32,7 @@ export default function EditorPreview() {
                 }}>
                     {/* Mockup Image */}
                     <img
-                        src="https://placehold.co/1200x800/1e1e1e/666?text=Astrild+Editor+Interface"
+                        src="/images/editor-interface.png"
                         alt="Astrild Editor Interface"
                         style={{
                             width: '100%',

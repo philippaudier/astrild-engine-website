@@ -6,11 +6,11 @@ export default function Showcase() {
 
     // Placeholder data for showcase items
     const showcaseItems = [
-        { id: 1, title: 'Real-time Lighting', size: 'large', image: 'https://placehold.co/800x600/1a1a1a/FFF?text=Real-time+Lighting' },
-        { id: 2, title: 'Particle System', size: 'small', image: 'https://placehold.co/400x300/2a2a2a/FFF?text=Particles' },
-        { id: 3, title: 'Physics Engine', size: 'small', image: 'https://placehold.co/400x300/333/FFF?text=Physics' },
-        { id: 4, title: 'Material Editor', size: 'medium', image: 'https://placehold.co/600x400/222/FFF?text=Material+Editor' },
-        { id: 5, title: 'Terrain Tools', size: 'medium', image: 'https://placehold.co/600x400/111/FFF?text=Terrain+Tools' },
+        { id: 1, title: 'Real-time Lighting', size: 'large', image: '/images/showcase-lighting.png' },
+        { id: 2, title: 'Particle System', size: 'small', image: '/images/showcase-particles.png' },
+        { id: 3, title: 'Physics Engine', size: 'small', image: '/images/showcase-physics.png' },
+        { id: 4, title: 'Material Editor', size: 'medium', image: '/images/showcase-material.png' },
+        { id: 5, title: 'Terrain Tools', size: 'medium', image: '/images/showcase-terrain.png' },
     ]
 
     return (

@@ -1,6 +1,6 @@
 export default function UseCases() {
     const projects = [
-        { title: 'Neon Racer', category: 'Racing', image: 'https://placehold.co/600x400/111/FFF?text=Neon+Racer' },
+        { title: 'Neon Racer', category: 'Racing', image: '/images/usecase-neon-racer.png' },
         { title: 'Forest Mystery', category: 'Adventure', image: 'https://placehold.co/600x400/222/FFF?text=Forest+Mystery' },
         { title: 'Space Odyssey', category: 'Sci-Fi', image: 'https://placehold.co/600x400/333/FFF?text=Space+Odyssey' },
     ]
