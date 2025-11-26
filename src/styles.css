@@ -26,9 +26,10 @@
     --color-purple: #AF52DE;
 
     /* Typography */
-    --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
-    --font-text: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif;
-    --font-mono: 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
+    --font-display: 'Rajdhani', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+    --font-text: 'Rajdhani', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', system-ui, sans-serif;
+    --font-mono: 'Fira Code', 'SF Mono', Menlo, Monaco, 'Courier New', monospace;
+    --font-brand: 'Alumni Sans Pinstripe', 'Rajdhani', -apple-system, BlinkMacSystemFont, sans-serif;
 
     /* Font Sizes */
     --text-xs: 0.75rem;

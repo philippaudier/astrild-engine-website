@@ -17,11 +17,29 @@ export default function Footer() {
                 }}>
                     {/* Logo */}
                     <div style={{
-                        fontSize: 'var(--text-lg)',
-                        fontWeight: 600,
-                        color: 'var(--color-black)'
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        gap: 'var(--space-sm)'
                     }}>
-                        Astrild Engine
+                        <img
+                            src="/images/astrild-logo-full.png"
+                            alt="Astrild Engine Logo"
+                            style={{
+                                height: '40px',
+                                width: 'auto'
+                            }}
+                        />
+                        <div style={{
+                            fontFamily: 'var(--font-brand)',
+                            fontSize: 'var(--text-xl)',
+                            fontWeight: 400,
+                            letterSpacing: '0.05em',
+                            color: 'var(--color-black)',
+                            textTransform: 'uppercase'
+                        }}>
+                            Astrild Engine
+                        </div>
                     </div>
 
                     {/* Links */}

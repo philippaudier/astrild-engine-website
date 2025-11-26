@@ -41,13 +41,19 @@ export default function Navbar() {
                     href="#"
                     onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
                     style={{
-                        fontSize: '1.125rem',
-                        fontWeight: 600,
-                        color: 'var(--color-black)',
+                        display: 'flex',
+                        alignItems: 'center',
                         textDecoration: 'none'
                     }}
                 >
-                    Astrild Engine
+                    <img
+                        src="/images/astrild-logo-full.png"
+                        alt="Astrild Engine"
+                        style={{
+                            height: '45px',
+                            width: 'auto'
+                        }}
+                    />
                 </a>
 
                 {/* Desktop Navigation */}

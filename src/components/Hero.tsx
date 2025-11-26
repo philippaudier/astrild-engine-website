@@ -26,16 +26,35 @@ export default function Hero() {
             position: 'relative'
         }}>
             <div className="container text-center">
-                {/* Main Title */}
-                <h1 style={{
-                    marginBottom: 'var(--space-md)',
-                    background: 'linear-gradient(135deg, var(--color-black) 0%, var(--color-gray-dark) 100%)',
-                    WebkitBackgroundClip: 'text',
-                    WebkitTextFillColor: 'transparent',
-                    backgroundClip: 'text'
+                {/* Main Title - Logo + Brand */}
+                <div style={{
+                    marginBottom: 'var(--space-lg)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    gap: 'var(--space-md)'
                 }}>
-                    Astrild Engine
-                </h1>
+                    <img
+                        src="/images/astrild-logo-full.png"
+                        alt="Astrild Engine Logo"
+                        style={{
+                            height: '200px',
+                            width: 'auto',
+                            filter: 'drop-shadow(0 8px 24px rgba(0, 0, 0, 0.12))'
+                        }}
+                    />
+                    <h1 style={{
+                        fontFamily: 'var(--font-brand)',
+                        fontSize: 'clamp(2.5rem, 6vw, 4rem)',
+                        fontWeight: 400,
+                        letterSpacing: '0.05em',
+                        color: 'var(--color-black)',
+                        margin: 0,
+                        textTransform: 'uppercase'
+                    }}>
+                        Astrild Engine
+                    </h1>
+                </div>
 
                 {/* Tagline */}
                 <p style={{
